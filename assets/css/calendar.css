@@ -1,0 +1,87 @@
+#calendar {
+    margin: 0px auto;
+    padding: 0px;
+    width: 100%;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+    border: 5px solid white;
+    background-color: #dddddd;
+}
+
+#calendar tr, td{
+    border: 2px solid white;
+}
+
+#calendar #cal_title{
+    height: 60px;
+    font-size: 50px;
+    font-family: "Times New Roman";
+}
+
+#calendar #cal_header{
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+
+#calendar .cal_weekday{
+    text-align: left;
+    padding-left: 15px;
+
+}
+#calendar .cal_itemday{
+    height: 35px;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+#calendar .cal_appoint_title{
+    font-size: 20px;
+    height: 35px;
+    margin: 1px;
+    background-color: #1F77D0;
+    padding : 3px 5px 3px 10px;
+    cursor: pointer;
+}
+
+#calendar .cal_appoint_title div i.remove_icon{
+    color:white;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+#calendar .cal_appoint_title div.item_appoint {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    color: white;
+}
+
+#calendar .cal_appoint_title a{
+    color: white;
+}
+
+@media (min-width:1850px) and (max-width:1920px) {
+    #calendar .cal_appoint_title div.item_appoint{
+        width: 160px;float: left;
+    }
+}
+
+@media (min-width:1350px) and (max-width:1850px) {
+    #calendar .cal_appoint_title div.item_appoint{
+        width: 100px;float: left
+    }
+}
+
+@media (min-width:992px) and (max-width:1350px) {
+    #calendar .cal_appoint_title div.item_appoint{
+        width: 60px;float: left
+    }
+}
+
+@media (max-width:992px)  {
+    #calendar .cal_appoint_title div.item_appoint{
+        width: 50px;float: left
+    }
+}

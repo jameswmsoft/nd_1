@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-git.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+	<link rel="stylesheet" type="text/css" href="contact/form/style.css" />
+  <style type="text/css">
+    .content {
+  display: none
+}
+
+.ilikeit {
+  background-color: #0f7ed0;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.9;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ilikeit:hover {
+  opacity: 1
+}
+
+.idontlikeit {
+  background-color: #e6250a;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.9;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.idontlikeit:hover {
+  opacity: 1
+}
+
+  </style>
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    
+$(function() {
+  $(".ilikeit").on("click", function(e) {
+    e.preventDefault();
+    $(".content").hide();
+    $("#" + this.id + "div").show();
+    $("#ilikeit").hide();
+    $("#idontlikeit").hide();
+  });
+});
+$(function() {
+  $(".idontlikeit").on("click", function(e) {
+    e.preventDefault();
+    $(".content").hide();
+    $("#" + this.id + "div").show();
+    $("#ilikeit").hide();
+    $("#idontlikeit").hide();
+  });
+});
+$(function() {
+  $(".question").on("click", function(e) {
+    e.preventDefault();
+    $(".content").hide();
+    $("#" + this.id + "div").show();
+    $("#question").hide();
+    $("#question").hide();
+  });
+});
+
+
+
+</script>
+
+</head>
+<body>
+  <font size="4px">How was your experience with The Hope Dental Care Centre?</font>
+<br>
+<br>
+<div class="navigation">
+ <center> <button class="ilikeit" type="button" id="ilikeit">Awesome!</button></center> 
+  <br>
+  
+  <center> <button class="idontlikeit" type="button" id="idontlikeit">Not so great!</button></center> 
+
+</div>
+
+<div id="ilikeitdiv" class="content">
+  <center><b>That's amazing. <br> We are really happy to hear that, could you leave us a review? <br> It would mean the world to us.</b></center>
+  <br>
+  <form ...>
+  <br>
+   <center> <a href="https://search.google.com/local/writereview?placeid=ChIJB11rjFT_zUwRlBa2udxCa5w">
+<img border="0"  src="http://sb.n1d.ca/thank-you/google.jpg" height="200" width="200">
+</a></center>
+  </form>
+</div>
+<div id="idontlikeitdiv" class="content">
+<center><b>We are really sorry to hear that, but we want to make it better.</center></b> <br>
+<center><b>Please let us know what we can fix.</center></b>
+  <div id="page-wrap">
+
+		
+				
+		<div id="contact-area">
+			
+			<form method="post" action="contact/contactengine.php">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				
+				<label for="Message">How can we improve? </label><br />
+				<textarea name="Message" rows="10" cols="10" id="Message"></textarea>
+
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+			</form>
+			
+			<div style="clear: both;"></div>
+			
+		
+		
+		</div>
+	
+	</div>
+  <form ...>
+  </form>
+</div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "vjJ7W"
+      }], "*")
+    }
+  </script>
+</body>
+</html>

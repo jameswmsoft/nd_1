@@ -1,0 +1,111 @@
+[29-Aug-2016 06:11:51 America/Chicago] PHP Warning:  require(/path/to/ebay-sdk-php-autoloader.php): failed to open stream: No such file or directory in /home/rorranks/public_html/plivosms/eb/index.php on line 3
+[29-Aug-2016 06:11:51 America/Chicago] PHP Fatal error:  require(): Failed opening required '/path/to/ebay-sdk-php-autoloader.php' (include_path='.:/opt/php56/lib/php') in /home/rorranks/public_html/plivosms/eb/index.php on line 3
+[29-Aug-2016 06:12:19 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:17:21 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:17:22 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:18:06 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:19:26 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:20:39 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:25:53 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:31:09 America/Chicago] PHP Fatal error:  Class 'Types\FindItemsByKeywordsRequest' not found in /home/rorranks/public_html/plivosms/eb/index.php on line 28
+[29-Aug-2016 06:33:28 America/Chicago] PHP Fatal error:  Class 'Types\FindItemsByKeywordsRequest' not found in /home/rorranks/public_html/plivosms/eb/index.php on line 28
+[29-Aug-2016 06:36:14 America/Chicago] PHP Fatal error:  Class 'Types\PaginationInput' not found in /home/rorranks/public_html/plivosms/eb/index.php on line 33
+[29-Aug-2016 06:36:47 America/Chicago] PHP Fatal error:  Call to undefined method DTS\eBaySDK\Finding\Services\FindingService::findItemsByKeywordsAsync() in /home/rorranks/public_html/plivosms/eb/index.php on line 39
+[29-Aug-2016 06:37:46 America/Chicago] PHP Fatal error:  Call to undefined method DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest::findItemsByKeywordsAsync() in /home/rorranks/public_html/plivosms/eb/index.php on line 39
+[29-Aug-2016 06:40:43 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error: `POST http://svcs.ebay.com/services/search/FindingService/v1` resulted in a `500 Internal Server Error` response:
+<?xml version='1.0' encoding='UTF-8'?><errorMessage xmlns="http://www.ebay.com/marketplace/search/v1/services"><error><e (truncated...)
+' in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php:107
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(201): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(154): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/TaskQueue.php(61): in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php on line 107
+[29-Aug-2016 06:48:44 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:49:30 America/Chicago] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot read credentials from /.ebay_sdk/credentials' in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php:132
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(83): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#1 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php(58): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#2 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/functions.php(61): DTS\eBaySDK\Credentials\CredentialsProvider::DTS\eBaySDK\Credentials\{closure}()
+#3 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/ConfigurationResolver.php(55): DTS\eBaySDK\applyCredentials(Object(Closure), Array)
+#4 /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Services/BaseService.php(52): DTS\eBaySDK\ConfigurationResolver->resolve(Array)
+#5 /home/rorranks/public_h in /home/rorranks/public_html/plivosms/eb/DTS/eBaySDK/Credentials/CredentialsProvider.php on line 132
+[29-Aug-2016 06:49:45 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error: `POST http://svcs.ebay.com/services/search/FindingService/v1` resulted in a `500 Internal Server Error` response:
+<?xml version='1.0' encoding='UTF-8'?><errorMessage xmlns="http://www.ebay.com/marketplace/search/v1/services"><error><e (truncated...)
+' in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php:107
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(201): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(154): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/TaskQueue.php(61): in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php on line 107
+[29-Aug-2016 06:50:04 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error: `POST http://svcs.ebay.com/services/search/FindingService/v1` resulted in a `500 Internal Server Error` response:
+<?xml version='1.0' encoding='UTF-8'?><errorMessage xmlns="http://www.ebay.com/marketplace/search/v1/services"><error><e (truncated...)
+' in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php:107
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(201): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(154): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/TaskQueue.php(61): in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php on line 107
+[29-Aug-2016 07:01:04 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ServerException' with message 'Server error: `POST http://svcs.ebay.com/services/search/FindingService/v1` resulted in a `500 Internal Server Error` response:
+<?xml version='1.0' encoding='UTF-8'?><errorMessage xmlns="http://www.ebay.com/marketplace/search/v1/services"><error><e (truncated...)
+' in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php:107
+Stack trace:
+#0 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(201): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/Promise.php(154): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Promise/TaskQueue.php(61): in /home/rorranks/public_html/plivosms/eb/GuzzleHttp/Exception/RequestException.php on line 107
